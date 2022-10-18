@@ -1,0 +1,26 @@
+
+
+.result{
+    
+    border-radius: 10px;
+    text-align: center;
+   
+  }
+.resultFail {
+  animation: treme 0.1s;
+  animation-iteration-count: 5;
+}
+  
+  @keyframes treme {
+    0% {margin-left: 0;}
+    25% {margin-left: 15px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -15px;}
+    100% {margin-left: 0;}
+
+    0% {margin-right: 0;}
+    25% {margin-right: -15px;}
+    50% {margin-right: 0;}
+    75% {margin-right: 15px;}
+    100% {margin-right: 0;}
+  }
